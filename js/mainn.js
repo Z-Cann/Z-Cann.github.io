@@ -134,7 +134,7 @@
 	}
 	var lastStamp = 0;
 	function tick(opt=0) {
-		if(opt-lastStamp>500){
+		if(opt-lastStamp>750){
 			lastStamp=opt;
 			createFireworks(Math.random()*canvas.width,Math.random()*canvas.height);
 		}

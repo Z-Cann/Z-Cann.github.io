@@ -40,7 +40,7 @@
 	function mouseDownHandler(e) {
 		var x = e.clientX;
 		var y = e.clientY;
-		createFireworks(x, y,['龙行大运', '龙年大吉', '万事如意', '开开心心', '新年快乐', '平安喜乐', '龙年昌盛', '快快乐乐', '心想事成', '万事如意', '喜乐无忧', '好运每日'][Math.floor(Math.random()*12)]);
+		createFireworks(x, y,['福蛇贺岁', '吉蛇迎春', '万事如意', '开开心心', '蛇年大吉', '平安喜乐', '瑞蛇呈祥', '快快乐乐', '心想事成', '万事如意', '喜乐无忧', '好运每日'][Math.floor(Math.random()*12)]);
 	}
 	document.addEventListener("mousedown", mouseDownHandler);
 
